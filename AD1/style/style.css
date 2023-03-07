@@ -10,19 +10,37 @@ body{
 
 header{
     display: block;
-    margin-bottom: 1px;
+    margin-bottom: 1px; 
+    
 }
 .ender{
     float: right;
-    text-align: right;
+    text-align: right;  
     font-size: 15px;
     line-height: 140%;
+    font-family: Verdana, Karla, Ubuntu;
+ 
+}
+.imgLogo{
+    border-bottom: solid 3px #FFFFFF;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+    float: left;
+   
 }
 
 nav{
     display: block;
     width: 20%;
     float:left;
+}
+ul{
+    color: #FFFFFF;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-image: url(../Imagens/BrilhoMark.png);
+    font-size: 20px;
+    font-family: Verdana, Karla, Ubuntu;
 }
 a{
     color:#FFFFFF;
@@ -37,4 +55,9 @@ section{
     display: block;
     width: 70%;
     float: left;
+    text-align: center;
+}
+.apres{
+    text-align: center;
+    font-size: 18px;
 }
