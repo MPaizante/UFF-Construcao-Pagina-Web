@@ -10,7 +10,8 @@ body{
 
 header{
     display: block;
-    margin-bottom: 1px; 
+    margin-bottom: 1px;
+    text-align: right; 
     
 }
 .ender{
@@ -34,13 +35,19 @@ nav{
     width: 20%;
     float:left;
 }
-ul{
+ul.paginas{
     color: #FFFFFF;
     line-height: 230%;
     margin-top: 40px;
     list-style-image: url(../Imagens/BrilhoMark.png);
     font-size: 20px;
     font-family: Verdana, Karla, Ubuntu;
+}
+.ultipos{
+    list-style: disc;
+    color:#99FFFF;
+    
+
 }
 a{
     color:#FFFFFF;
@@ -51,13 +58,52 @@ a:visited{
     text-decoration: none;
 }
 
-section{
+section.refri{
     display: block;
     width: 70%;
     float: left;
     text-align: center;
 }
+section.listaTipos{
+    text-align: center;
+}
+.oltipos{
+    float: left;
+}
 .apres{
     text-align: center;
     font-size: 18px;
 }
+
+.tdazul{
+    background-color: #226699;
+    border: 3px solid black;
+    padding: 6px 12px 6px 12px;
+    text-align: center;
+    
+}
+.tdbranco{
+    border: 3px solid black;
+    padding: 6px 12px 6px 12px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+
+}
+.tabInfo{
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #000066;
+    font-family: Verdana, Karla, Ubuntu;
+}
+.trbranco{
+    color: #FFFFFF;
+    background-color: #22BB66;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
