@@ -106,8 +106,61 @@ section.listaTipos{
 
 .colTH{
     color: #FFFFFF;
-    background-color: #0066DD;
+    background-color: #004499;
+
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+}
+.tabEstoque{
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+
+}
+.preco{
+    color: #CC0000;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    background-color: #FFFFFF;
+    
+}
+.capacidades-tipos{
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    color: #000066;
     text-align: left;
+    background-color: #FFFFFF;
+}
+.centro{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+}
+.imagem{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black; 
+    background-color: #FFFFFF;
+}
+.produto{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    color: #FFFFFF; 
+    background-color: #0066DD;
 }
 
 
