@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <p><img src="Imagens/ResfGlobLogoDeitado.png" alt="logo deitado" class="imgLogo"></p>
+                <p class="ender"><address>Av. Novaya Zemlya, 1870</address></p>
+                <p class="ender"><address>Cel: (21) 98765-4321</address></p>
+                <p class="ender"><address>contato@resfriglob.com.br</address></p>
+    </header>
+
+    <nav >
+        <ul class="paginas">
+            <li><a href="RefriGlobal.html" target="_blank">Apresentação</a></li>
+            <li><a href="Tipos.html" target="_blank">Tipos</a></li>
+            <li><a href="Estoque.html">Estoque</a></li>
+            <li><a href="Cadastro.html">Cadastro</a></li>
+            <li><a href="#">Compras</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <form action="cadastro.php" method="post" autocomplete="on">
+
+            <fieldset>
+                <legend>Identificação</legend>
+                <label for="">E-mail: </label>
+                <input type="email" name="" id="">
+                
+                <p></p>
+                <label for="">Senha:</label>
+                <input type="password" name="" id="">
+                <label for="">Confirme:</label>
+                <input type="password" name="" id="">
+            </fieldset>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">Nome:</label>
+            <input type="text">
+            <p></p>
+            <label for="">Endereço:</label>
+            <p></p>
+            <textarea name="" id="" cols="30" rows="10">Digite Seu Endereço.</textarea>
+            <p></p>
+            
+            <label for="">Telefone:</label>
+            <input type="number" name="" id="">
+            <label for="">Celular:</label>
+            <input type="number" name="" id="">
+            
+            
+
+            <fieldset>
+                <legend>Nascimento</legend>
+                <input type="date" name="" id="" >
+
+                
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="" id="">
+                <label for="">Masculino</label>
+                <input type="radio" name="" id="">
+                <label for="">Feminino</label>
+                <input type="radio" name="" id="">
+                <label for="">Outro</label>
+                
+            </fieldset>
+            
+            
+        </fieldset>
+       <button type="submit">Cadastrar</button>
+       <button>Limpar</button>
+        </form>
+
+    </section>
+    
+</body>
+</html>
