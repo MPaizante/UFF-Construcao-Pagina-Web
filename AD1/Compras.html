@@ -31,16 +31,16 @@
             <fieldset>
                 <legend>Identificação</legend>
                 <label for="" >E-mail:</label>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="" class="redondo">
                 <label for="">Senha:</label>
-                <input type="password" name="" id="">
+                <input type="password" name="" id="" class="redondo">
                 <p><i>Se você ainda não tem cadastro clique <a href="Cadastro.html">aqui!</a></i></p>
             </fieldset>
 
             <fieldset>
                 <legend>Lista de Compras</legend>
                 <label for="">Produtos</label>
-                <select name="Produtos" id="">
+                <select name="Produtos" id="" class="redondo">
                     <option value="" selected>------</option>
 
                     <optgroup label="Split ">
@@ -60,19 +60,21 @@
                 
                 <p><textarea name="" id="" cols="62" rows="5"></textarea></p>
                 <label for="">Valor: R$ </label>
-                <input type="text">
+                <input type="text" class="redondo">
                                
             </fieldset>
 
             <fieldset>
                 <legend>Dados do Cartão</legend>
                 <label for="">Numero:</label>
-                <input type="text"> <input type="text" name="" id=""> <input type="text"> <input type="text">
+                <input type="text" class="redondo" size="1"> <input type="text" name="" id="" class="redondo" size="1"> <input type="text" class="redondo" size="1"> <input type="text" class="redondo" size="1">
+                <p></p>
                 <label for="">Validade:</label>
-                <input type="month" name="" id="">
+                <input type="month" name="" id="" class="redondo" size="1">
+                <p></p>
                 <label for="">Parcelas:</label>
-                <input type="number" name="" id=""> x Sem Juros
-                <fieldset class="fieldireita">
+                <input type="number" name="" id="" class="redondo" size="1"> <span>x Sem Juros</span>
+                <fieldset class="fieldireita" >
                     <legend>Bandeira:</legend>
                     <input type="radio" name="" id="">
                     <label for="">Visa</label>
@@ -83,10 +85,14 @@
                     <input type="radio" name="" id="">
                     <label for="">Elo</label>
                     
+                    
                 </fieldset>
+                <div class="redondo">
+                    <input type="button" value="Confirmar" class="redondo">
+                    <input type="button" value="limpar"   class="redondo">
+                </div>
             </fieldset>
-            <input type="button" value="Confirmar">
-            <input type="button" value="Limpar">
+            
        </form>
     </section>
     

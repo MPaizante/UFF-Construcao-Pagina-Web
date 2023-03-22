@@ -205,3 +205,21 @@ div{
     float: right;
     width: 50px;
 }
+.Cdireita{
+    float: right;
+    width: 290px;
+    font-size: 16px;
+}
+.Nascimento{
+    float: left;
+    width: 100px;
+}
+.redondo{
+    border-radius: 4px;
+    text-shadow: none;
+    border-color: #FFFFFF;
+}
+span{
+    font-size: 16px;
+}
+

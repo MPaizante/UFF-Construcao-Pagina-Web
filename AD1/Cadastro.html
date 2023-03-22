@@ -27,45 +27,49 @@
     </nav>
 
     <section class="refri">
-        <form action="cadastro.php" method="post" autocomplete="">
+        <form action="" method="post" autocomplete="" >
 
             <fieldset>
                 <legend>Identificação</legend>
-                <label for="" class="esquerda">E-mail: </label>
-                <input type="email" name="" id="" class="box">
+                <label for="">E-mail: </label>
+                <input type="email" name="" id="" size="55" class="redondo">
+                 <p></p>  
+                <label for="">Senha:</label>
+                <input type="password" name="" id="" size="7" class="redondo">                            
+               <label for="" class="" >Confirme: </label>
+               <input type="password" name="" id="" size="7" class="redondo">
                 
-                <p></p>
-                <label for="" class="esquerda">Senha:</label>
-                <input type="password" name="" id="" class="box">
-                <label for="" class="" >Confirme: </label>
-                <input type="password" name="" id="" class="box">
             </fieldset>
 
         <fieldset>
             <legend>Dados Pessoais</legend>
-            <label for="" class="esquerda">Nome:</label>
-            <input type="text" class="box">
+            <label for="">Nome:</label>
+            <input type="text" size="55" class="redondo">
             <p></p>
-            <label for="" class="esquerda">Endereço:</label>
+            <label for="" >Endereço:</label>
+            <textarea name="" id="" cols="50" rows="3">Digite Seu Endereço.</textarea>
             <p></p>
-            <textarea name="" id="" cols="30" rows="10">Digite Seu Endereço.</textarea>
+            
             <p></p>
+            
         
-            <label for="" class="esquerda">Telefone:</label>
-            <input type="number" name="" id="" class="linhaForm">
-            <label for="" class="">Celular:</label>
-            <input type="number" name="" id="" class="linhaForm">
+            <label for="" >Telefone:</label>
+            <input type="text" size="6" class="redondo">
+            <label for="" >Celular:</label>
+            <input type="text" size="6" class="redondo">
+            <br>
+            <br>
             
             
 
-            <fieldset>
+            <fieldset class="Nascimento">
                 <legend>Nascimento</legend>
-                <input type="date" name="" id="" >
+                <input type="date" name="" id="" class="redondo">
 
                 
             </fieldset>
-            <fieldset>
-                <legend class="direita">Sexo</legend>
+            <fieldset class="Cdireita">
+                <legend >Sexo</legend>
                 <input type="radio" name="" id="">
                 <label for="">Masculino</label>
                 <input type="radio" name="" id="">
@@ -75,12 +79,13 @@
                 
             </fieldset>
             
-            
+            <div class="redondo">
+                <input type="button" value="Enviar"  class="redondo">
+                <input type="button" value="Limpar"  class="redondo">
+            </div>
         </fieldset>
-       <div>
-           <input type="button" value="Enviar">
-           <input type="button" value="Limpar">
-       </div>
+       
+       
         </form>
 
     </section>
