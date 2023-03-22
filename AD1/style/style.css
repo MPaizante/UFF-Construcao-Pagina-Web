@@ -201,3 +201,7 @@ div{
 .box{
     width: 40px;
 }
+.fieldireita{
+    float: right;
+    width: 50px;
+}
